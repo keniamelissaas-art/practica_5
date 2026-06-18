@@ -4,10 +4,10 @@ from mysql.connector import Error
 def obtener_conexion():
     try:
         conexion = mysql.connector.connect(
-            host='be5bmntqvmjb45dbc68h-mysql.services.clever-cloud.com',
-            user='ufrsewvahgrdaghy',
-            password='UxDnJbPxibZaLwBC6Xt1',
-            database='be5bmntqvmjb45dbc68h',
+            host='bjiezmunaora5oi898fu-mysql.services.clever-cloud.com,
+            user='ueeb4z38vt9xtz3c',
+            password='dSyQ74Vhjr57QxhpEi1e',
+            database='bjiezmunaora5oi898fu',
             port=3306
         )
         if conexion.is_connected():
